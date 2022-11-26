@@ -15,7 +15,7 @@ const data = {
     },
     {
       _id: '2',
-      name: 'Iphone 13 ProMAx',
+      name: 'Iphone 13 ProMax',
       slug: 'Iphone',
       category: 'Mobile',
       image: '/images/p2.jpg',
