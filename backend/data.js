@@ -1,7 +1,7 @@
 const data = {
   products: [
     {
-      _id: '1',
+      //_id: '1',
       name: 'Samsung Galaxy S22 Ultra',
       slug: 'Samsung',
       category: 'Mobile',
@@ -14,7 +14,7 @@ const data = {
       description: 'High quality product',
     },
     {
-      _id: '2',
+      //_id: '2',
       name: 'Iphone 13 ProMax',
       slug: 'Iphone',
       category: 'Mobile',
@@ -27,7 +27,7 @@ const data = {
       description: 'High quality product',
     },
     {
-      _id: '3',
+      //_id: '3',
       name: 'Redmi Note 20',
       slug: 'Redmi Note',
       category: 'Mobile',
@@ -40,7 +40,7 @@ const data = {
       description: 'High quality product',
     },
     {
-      _id: '4',
+      //_id: '4',
       name: 'Mac Book Pro',
       slug: 'Mac Laptop',
       category: 'Laptop',
@@ -53,7 +53,7 @@ const data = {
       description: 'High quality product',
     },
     {
-      _id: '5',
+      //_id: '5',
       name: 'Nvidia Graphic RTX 3090',
       slug: 'Nvidia Graphics',
       category: 'Eletronic',
@@ -66,7 +66,7 @@ const data = {
       description: 'High quality product',
     },
     {
-      _id: '6',
+      //_id: '6',
       name: 'Nvidia Graphic GTX 970',
       slug: 'Nvidia Graphics GTX',
       category: 'Eletronic',
