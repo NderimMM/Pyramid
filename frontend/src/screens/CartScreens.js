@@ -8,6 +8,7 @@ import MessageBox from '../components/MessageBox';
 import { Link, useNavigate } from 'react-router-dom';
 import ListGroup from 'react-bootstrap/ListGroup';
 import Button from 'react-bootstrap/Button';
+import { Helmet } from 'react-helmet-async';
 
 export default function CartScreen() {
   const navigate = useNavigate();
@@ -38,6 +39,9 @@ export default function CartScreen() {
 
   return (
     <div>
+      <Helmet>
+        <title>Cart</title>
+      </Helmet>
       <h1>Shopping Cart</h1>
       <Row>
         <Col md={8}>
