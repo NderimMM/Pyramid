@@ -4,7 +4,7 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import { Navigate, useNavigate } from 'react-router-dom';
 import { Store } from '../Store';
-import CheckputSteps from '../components/CheckputSteps';
+import CheckoutSteps from '../components/CheckoutSteps';
 
 export default function ShippingAddressScreen() {
   const navigate = useNavigate('');
@@ -60,7 +60,7 @@ export default function ShippingAddressScreen() {
         <title>Shipping Address</title>
       </Helmet>
 
-      <CheckputSteps step1 step2></CheckputSteps>
+      <CheckoutSteps step1 step2></CheckoutSteps>
 
       <div className="container small-container">
         <h1 className="my-3">Shipping Address</h1>
