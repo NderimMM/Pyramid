@@ -27,6 +27,7 @@ function Product(props) {
       payload: { ...item, quantity },
     });
   };
+
   return (
     <Card>
       <Link to={`/product/${product.slug}`}>
@@ -40,7 +41,6 @@ function Product(props) {
         <Card.Text>${product.price}</Card.Text>
         {product.countInStock === 0 ? (
           <Button variant="light" disabled>
-            {' '}
             Out of stock
           </Button>
         ) : (
@@ -50,5 +50,4 @@ function Product(props) {
     </Card>
   );
 }
-
 export default Product;
