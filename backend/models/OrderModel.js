@@ -9,6 +9,14 @@ const orderSchema = new mongoose.Schema(
         quantity: { type: Number, required: true },
         image: { type: String, required: true },
         price: { type: Number, required: true },
+        location: {
+          lat: Number,
+          lng: Number,
+          address: String,
+          name: String,
+          vicinity: String,
+          googleAddressId: String,
+        },
         product: {
           type: mongoose.Schema.Types.ObjectId,
           ref: 'Product',
